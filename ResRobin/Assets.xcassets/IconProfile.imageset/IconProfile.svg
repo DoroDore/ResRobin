@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="IconProfile" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 372.05 308.11">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-rule: evenodd;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #174a44;
+      }
+    </style>
+  </defs>
+  <circle class="cls-2" cx="186.03" cy="104.64" r="104.64"/>
+  <path class="cls-1" d="M81.77,197.36C32.42,221.4,0,262.03,0,308.11h372.05c0-46.07-32.42-86.71-81.77-110.75-25.55,28.72-62.79,46.8-104.26,46.8s-78.7-18.09-104.26-46.8Z"/>
+</svg>

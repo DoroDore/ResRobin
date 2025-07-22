@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct ResRobinApp: App {
+    
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    @State private var authController = AuthController()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
+                .environment(authController)
         }
     }
 }
