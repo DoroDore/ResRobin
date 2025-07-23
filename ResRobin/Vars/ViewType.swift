@@ -5,14 +5,6 @@
 //  Created by Theodore Zhu on 7/22/25.
 //
 
-
-//
-//  ViewType.swift
-//  ResRobin
-//
-//  Created by Theodore Zhu on 7/22/25.
-//
-
 import Foundation
 
 // Defines the different views that can be selected from the toolbar.

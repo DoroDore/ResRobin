@@ -37,7 +37,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		E4DB6C582E303E9E00847F43 /* Exceptions for "ResRobin" folder in "ResRobin" target */ = {
+		E410523A2E306619004B7CC5 /* Exceptions for "ResRobin" folder in "ResRobin" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -50,7 +50,7 @@
 		E42595CC2E3033E700406E8D /* ResRobin */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				E4DB6C582E303E9E00847F43 /* Exceptions for "ResRobin" folder in "ResRobin" target */,
+				E410523A2E306619004B7CC5 /* Exceptions for "ResRobin" folder in "ResRobin" target */,
 			);
 			path = ResRobin;
 			sourceTree = "<group>";
@@ -63,6 +63,16 @@
 		E42595E42E3033E800406E8D /* ResRobinUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = ResRobinUITests;
+			sourceTree = "<group>";
+		};
+		E4DB6C9B2E30608100847F43 /* Data */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Data;
+			sourceTree = "<group>";
+		};
+		E4DB6C9F2E3061ED00847F43 /* Services */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -99,6 +109,8 @@
 		E42595C12E3033E700406E8D = {
 			isa = PBXGroup;
 			children = (
+				E4DB6C9F2E3061ED00847F43 /* Services */,
+				E4DB6C9B2E30608100847F43 /* Data */,
 				E42595CC2E3033E700406E8D /* ResRobin */,
 				E42595DA2E3033E800406E8D /* ResRobinTests */,
 				E42595E42E3033E800406E8D /* ResRobinUITests */,
@@ -133,6 +145,8 @@
 			);
 			fileSystemSynchronizedGroups = (
 				E42595CC2E3033E700406E8D /* ResRobin */,
+				E4DB6C9B2E30608100847F43 /* Data */,
+				E4DB6C9F2E3061ED00847F43 /* Services */,
 			);
 			name = ResRobin;
 			packageProductDependencies = (
